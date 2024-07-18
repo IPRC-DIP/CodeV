@@ -1,6 +1,6 @@
 # CodeV
 
-This is the repository that contains source code for the [CodeV website](https://yang-z-hao.github.io/CodeV).
+This is the repository that contains source code for the [CodeV website](https://iprc-dip.github.io/CodeV).
 
 ## Paper
 
