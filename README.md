@@ -42,14 +42,13 @@ print("Response:", response)
 | 7B   | [Qwen/CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)                         | [yang-z/CodeV-QW-7B](https://huggingface.co/yang-z/CodeV-QW-7B)     |
 
 ## Paper
-
 **Arxiv:** <https://arxiv.org/abs/2407.10424>
 
-Please cite the paper if you use the code, models or datasets from InverseCoder.
+Please cite the paper if you use the models from CodeV.
 
 ```
-@misc{wu2024inversecoderunleashingpowerinstructiontuned,
-      title={InverseCoder: Unleashing the Power of Instruction-Tuned Code LLMs with Inverse-Instruct}, 
+@misc{yang-z,
+      title={CodeV: Empowering LLMs for Verilog Generation through Multi-Level Summarization}, 
       author={Yang Zhao and Di Huang and Chongxiao Li and Pengwei Jin and Ziyuan Nan and Tianyun Ma and Lei Qi and Yansong Pan and Zhenxing Zhang and Rui Zhang and Xishan Zhang and Zidong Du and Qi Guo and Xing Hu and Yunji Chen},
       year={2024},
       eprint={2407.10424},
