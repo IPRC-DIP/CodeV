@@ -8,12 +8,9 @@
 
 CodeV is an innovative series of open-source, instruction-tuned Large Language Models (LLMs) specifically designed for the generation of high-quality Verilog code, addressing the challenges faced by existing models in this domain.  **(This repo is under development)** 
 
-
-
 ## Train and Fine-tuning
 
 The training environment configuration and running methods refer to the [magicoder](https://github.com/ise-uiuc/magicoder) project.
-
 
 ## Test
 
@@ -36,17 +33,16 @@ response = result[0]["generated_text"]
 print("Response:", response)
 ```
 
-
 ## Models and Datasets
 
-|      | Base Model                                                                                          | CodeV                                                                                |
-| ---- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+|      | Base Model                                                                                          | CodeV                                                               |
+| ---- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | 6.7B | [deepseek-ai/deepseek-coder-6.7b-base](https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base) | [yang-z/CodeV-DS-6.7B](https://huggingface.co/yang-z/CodeV-DS-6.7B) |
-| 7B   | [codellama/CodeLlama-7b-Python-hf](https://huggingface.co/codellama/CodeLlama-7b-Python-hf)         | [yang-z/CodeV-CL-7B](https://huggingface.co/yang-z/CodeV-CL-7B)      |
-| 7B   | [Qwen/CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)                         | [yang-z/CodeV-QW-7B](https://huggingface.co/yang-z/CodeV-QW-7B)      |
-
+| 7B   | [codellama/CodeLlama-7b-Python-hf](https://huggingface.co/codellama/CodeLlama-7b-Python-hf)         | [yang-z/CodeV-CL-7B](https://huggingface.co/yang-z/CodeV-CL-7B)     |
+| 7B   | [Qwen/CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)                         | [yang-z/CodeV-QW-7B](https://huggingface.co/yang-z/CodeV-QW-7B)     |
 
 ## Paper
+
 **Arxiv:** <https://arxiv.org/abs/2407.10424>
 
 Please cite the paper if you use the code, models or datasets from InverseCoder.
