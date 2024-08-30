@@ -41,6 +41,10 @@ print("Response:", response)
 | 7B   | [codellama/CodeLlama-7b-Python-hf](https://huggingface.co/codellama/CodeLlama-7b-Python-hf)         | [yang-z/CodeV-CL-7B](https://huggingface.co/yang-z/CodeV-CL-7B)     |
 | 7B   | [Qwen/CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)                         | [yang-z/CodeV-QW-7B](https://huggingface.co/yang-z/CodeV-QW-7B)     |
 
+## 💻 LLM-generated Verilog code
+
+We have collected existing LLMs of Verilog code and demonstrated their performance on VerilogEval and RTLLM in [Chip Design LLM Zoo](https://iprc-dip.github.io/AwesomeChipDesignLeaderBoard).
+
 ## Paper
 **Arxiv:** <https://arxiv.org/abs/2407.10424>
 
