@@ -254,6 +254,7 @@
       </div>
 
       <!-- Method -->
+
       <div class="columns is-centered">
         <div class="column is-full-width">
           <h2 class="title is-3">Quick Start</h2>
@@ -271,51 +272,34 @@ generator = pipeline(
 result = generator(prompt , max_length=2048,num_return_sequences=1, temperature=0.0)
 response = result[0]["generated_text"]
 print("Response:", response)
-        </code>
-      </pre>
+            </code>
+          </pre>
         </div>
       </div>
-      <!--/ Method-->
-
-      <!--/ User Interface. -->
-
-      <!--
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-          <h2 class="title is-3">Related Links</h2>
-
-          <div class="content has-text-justified">
-            <p>
-              There's a lot of excellent work that was introduced around the same time as ours.
-            </p>
-            <p>
-              <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an
-              idea similar to our windowed position encoding for coarse-to-fine optimization.
-            </p>
-            <p>
-              <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a
-                href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-              both use deformation fields to model non-rigid scenes.
-            </p>
-            <p>
-              Some works model videos with a NeRF by directly modulating the density, such as <a
-                href="https://video-nerf.github.io/">Video-NeRF</a>, <a
-                href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a
-                href="https://neural-3d-video.github.io/">DyNeRF</a>
-            </p>
-            <p>
-              There are probably many more by the time you are reading this. Check out <a
-                href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a
-                href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-      -->
-
     </div>
+  
+    <!-- <hr/> -->
+    <!-- <section class="section" id="BibTeX"> -->
+      <!-- <div class="columns is-centered"> -->
+        <div class="container content is-max-desktop">
+            <h2 class="title is-3"> BibTex </h2>
+              <pre>
+  <code class="nohighlight" style="background-color: transparent; color: black; font-family: monospace;">@misc{zhao2024codevempoweringllmsverilog,
+    title={CodeV: Empowering LLMs for Verilog Generation through Multi-Level Summarization},
+    author={Yang Zhao and Di Huang and Chongxiao Li and Pengwei Jin and Ziyuan Nan and Tianyun Ma and Lei Qi and Yansong Pan and Zhenxing Zhang and Rui Zhang and Xishan Zhang and Zidong Du and Qi Guo and Xing Hu and Yunji Chen},
+    year={2024},
+    eprint={2407.10424},
+    archivePrefix={arXiv},
+    primaryClass={cs.PL},
+    url={https://arxiv.org/abs/2407.10424},
+  }</code>
+              </pre>
+      </div>
+      <!-- </section> -->
   </section>
 
+  <!-- <hr/> -->
+  
 
   <footer class="footer">
     <div class="container">
