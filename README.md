@@ -51,9 +51,11 @@ print("Response:", response)
 | 7B   |[Qwen/Qwen2.5-Coder-7B](https://huggingface.co/Qwen/Qwen2.5-Coder-7B)                              | [yang-z/CodeV-All-QC](https://huggingface.co/yang-z/CodeV-All-QC)      |
 
 
-|DataSet                                                                                          | 
+|Dataset                                                                                          | 
 | ------------------------------------------------------------------- |
 |  [yang-z/CodeV-All](https://huggingface.co/datasets/yang-z/CodeV-All) |
+
+
 ## 💻 LLM-generated Verilog code
 
 We have collected existing LLMs of Verilog code and demonstrated their performance on VerilogEval and RTLLM in [Chip Design LLM Zoo](https://iprc-dip.github.io/AwesomeChipDesignLeaderBoard).
