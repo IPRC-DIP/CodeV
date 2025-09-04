@@ -3,7 +3,11 @@
 </div>
 
 # CodeV:Empowering LLMs for Verilog Generation through Multi-Level Summarization
-
+<p align="left">
+    <a href="https://arxiv.org/abs/2407.10424"><img src="https://img.shields.io/badge/arXiv-2407.10424-b31b1b.svg?style=for-the-badge">
+    <a href="https://huggingface.co/collections/yang-z/codev-6698a560cd94e61a9675fa2a"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-CodeV-%23ff8811.svg?style=for-the-badge">
+    <a href="https://opensource.org/license/mit/"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge">
+</p>
 <img src="assets/overview.png" style="zoom:50%;" /> 
 
 CodeV is an innovative series of open-source, instruction-tuned Large Language Models (LLMs) specifically designed for the generation of high-quality Verilog code, addressing the challenges faced by existing models in this domain.  **(This repo is under development)** 
@@ -40,7 +44,16 @@ print("Response:", response)
 | 6.7B | [deepseek-ai/deepseek-coder-6.7b-base](https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base) | [yang-z/CodeV-DS-6.7B](https://huggingface.co/yang-z/CodeV-DS-6.7B) |
 | 7B   | [codellama/CodeLlama-7b-Python-hf](https://huggingface.co/codellama/CodeLlama-7b-Python-hf)         | [yang-z/CodeV-CL-7B](https://huggingface.co/yang-z/CodeV-CL-7B)     |
 | 7B   | [Qwen/CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)                         | [yang-z/CodeV-QW-7B](https://huggingface.co/yang-z/CodeV-QW-7B)     |
+| 7B   | [Qwen/Qwen2.5-Coder-7B](https://huggingface.co/Qwen/Qwen2.5-Coder-7B)                         | [yang-z/CodeV-QC-7B](https://huggingface.co/yang-z/CodeV-QC-7B)      |
+| 6.7B | [deepseek-ai/deepseek-coder-6.7b-base](https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base)               | [yang-z/CodeV-All-DSC](https://huggingface.co/yang-z/CodeV-All-DSC)      |
+| 7B   | [codellama/CodeLlama-7b-Python-hf](https://huggingface.co/codellama/CodeLlama-7b-Python-hf)                       | [yang-z/CodeV-All-CL](https://huggingface.co/yang-z/CodeV-All-CL)      |
+| 7B   |[Qwen/CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)                         | [yang-z/CodeV-All-CQ](https://huggingface.co/yang-z/CodeV-All-CQ)      |
+| 7B   |[Qwen/Qwen2.5-Coder-7B](https://huggingface.co/Qwen/Qwen2.5-Coder-7B)                              | [yang-z/CodeV-All-QC](https://huggingface.co/yang-z/CodeV-All-QC)      |
 
+
+|DataSet                                                                                          | 
+| ------------------------------------------------------------------- |
+|  [yang-z/CodeV-All](https://huggingface.co/datasets/yang-z/CodeV-All) |
 ## 💻 LLM-generated Verilog code
 
 We have collected existing LLMs of Verilog code and demonstrated their performance on VerilogEval and RTLLM in [Chip Design LLM Zoo](https://iprc-dip.github.io/AwesomeChipDesignLeaderBoard).
